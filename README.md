@@ -2,6 +2,8 @@
 A Submarine Pipeline Inspection Dataset for Segmentation and Visual-inertial Localization.
 Here you will find all the relevant information regarding the dataset introduced in [our paper(TODO)]()
 
+![](https://raw.githubusercontent.com/remaro-network/SubPipe-dataset/main/media/lauv-paper.png)
+
 
  ## Dataset link
  You can download MIMIR-UW from [the following link(TODO)]()
