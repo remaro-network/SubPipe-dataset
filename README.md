@@ -6,7 +6,7 @@ Here you will find all the relevant information regarding the dataset introduced
 
 
  ## Dataset link
- You can download MIMIR-UW from [the following link(TODO)]()
+ You can download SubPipe from [the following link(TODO)]()
 
 
 
