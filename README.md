@@ -19,6 +19,9 @@ More information about Oceanscan-MST can be found at this [link](https://www.oce
 <a href="https://remaro.eu/">
     <img height="60" alt="REMARO Logo" src="https://remaro.eu/wp-content/uploads/2020/09/remaro1-right-1024.png">
 </a>
+<a href="https://www.oceanscan-mst.com/">
+    <img height="60" alt="REMARO Logo" src="https://isola-project.eu/wp-content/uploads/2020/07/OceanScan.png">
+</a>
 
 This work is part of the Reliable AI for Marine Robotics (REMARO) Project. For more info, please visit: <a href="https://remaro.eu/">https://remaro.eu/
 
