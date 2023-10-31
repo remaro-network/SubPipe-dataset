@@ -12,6 +12,9 @@ Here you will find all the relevant information regarding the dataset introduced
 
 ## Acknowledgements
 
+<em><strong>SubPipe</strong> is a public dataset of a submarine outfall pipeline, property of Oceanscan-MST. This dataset was acquired with a Light Autonomous Underwater Vehicle by Oceanscan-MST, within the scope of Challenge Camp 1 of H2020 [REMARO](https://remaro.eu/) project.
+More information about Oceanscan-MST can be found at this [link](https://www.oceanscan-mst.com/).</em>
+
 <a href="https://remaro.eu/">
     <img height="60" alt="REMARO Logo" src="https://remaro.eu/wp-content/uploads/2020/09/remaro1-right-1024.png">
 </a>
