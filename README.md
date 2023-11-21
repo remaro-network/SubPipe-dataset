@@ -8,7 +8,14 @@ Here you will find all the relevant information regarding the dataset introduced
  ## Dataset link
  You can download SubPipe from [the following link](https://zenodo.org/records/10053565?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijk3YjQ3MDMyLTVkNjQtNGVjZi05YWM0LThmMWViZDdlZjZhYSIsImRhdGEiOnt9LCJyYW5kb20iOiI1OWM2MWFhMGJiM2ExYThiMGZjNzViZjQ3ZTBiZWRmMyJ9.cGHld8zcCv2Un3LWDJo_S8IExiTfaQqyIZusOQ0VGHywkJXM5YiOieUBgyRCgXp7s6kWHKymrOQWnGVu-A2utg)
 
-
+## Camera parameters
+### Cam0 - GoPro Hero 10
+> - Resolution: 1520x2704
+> - fx = 1612.36
+> - fy = 1622.56
+> - cx = 1365.43
+> - cy = 741.27
+> - k1,k2, p1, p2 = [−0.247, 0.0869, −0.006, 0.001]
 
 ## Acknowledgements
 
