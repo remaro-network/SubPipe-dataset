@@ -10,8 +10,7 @@ import matplotlib.pyplot as plt
 import cv2
 from sklearn.decomposition import PCA
 from torch.utils.data import DataLoader
-from aux import tvector_2_se3, print_header
-from data_loader.data_loaders import MultiDataset
+from aux import tvector_2_se3
 
 class DBMetrics(object):
     '''

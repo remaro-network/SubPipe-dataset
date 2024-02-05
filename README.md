@@ -14,7 +14,11 @@ If any of this work has been useful in your research, please consider citing us 
     - [1.3 Camera parameters](#13-camera-parameters)
       - [Cam0 - GoPro Hero 10](#cam0---gopro-hero-10)
   - [1.3 Dataset metrics on SubPipe](#13-dataset-metrics-on-subpipe)
-  - [Acknowledgements](#acknowledgements)
+- [2. The experiments](#2-the-experiments)
+  - [2.1 SLAM](#21-slam)
+  - [2.2 RGB segmentation](#22-rgb-segmentation)
+  - [2.3 Object detection on Side-scan sonar images](#23-object-detection-on-side-scan-sonar-images)
+- [Acknowledgements](#acknowledgements)
 
 
 ## 1. The dataset
@@ -64,13 +68,26 @@ SubPipe
 ## 1.3 Dataset metrics on SubPipe
 Our paper proposes a set of metrics to compare SubPipe with existing datasets.
 The folder `dataset_metrics` within this repo includes:
-- The results from applying the metrics on state-of-the-art datasets.
-- A notebook to plot the metrics.
-- The code for deploying the metrics.
+- The results from applying the metrics on state-of-the-art datasets -> :open_file_folder: [here](https://github.com/remaro-network/SubPipe-dataset/tree/main/dataset_metrics/results)
+- A notebook to plot the metrics -> :notebook: [here](https://github.com/remaro-network/SubPipe-dataset/blob/main/dataset_metrics/plot_metrics.ipynb)
+- The code for deploying the metrics -> [here](https://github.com/remaro-network/SubPipe-dataset/blob/main/dataset_metrics/dataset_metrics.py). Note: you will need to configure your own dataloader.
 
 The metrics proposed are delentropy and motion diversity. For more info about those metrics, consider reading [our paper](https://arxiv.org/abs/2401.17907).
 
-## Acknowledgements
+# 2. The experiments
+Our paper proposes a comprehensive set of experiments to demonstrate SubPipe's performance on different use-cases.
+
+## 2.1 visual SLAM
+The algorithms tested in this paper are the geometry-based ORB-SLAM3 and DSO and the learning-based algorithm TartanVO.
+The data loaders for ORB-SLAM and DSO are gathered together in [this repository](https://github.com/olayasturias/monocular_visual_slam_survey) that surveys monocular visual SLAM algorithms. It includes [scripts](https://github.com/olayasturias/monocular_visual_slam_survey/tree/main/scripts) for running the algorithms in your favourite datasets, including Subpipe. For more detailed info, we recommend you to read the repo's README.
+
+## 2.2 RGB segmentation
+- [Segformer](https://github.com/FrancescoSaverioZuppichini/SegFormer)
+
+## 2.3 Object detection on Side-scan sonar images
+\# TODO
+
+# Acknowledgements
 
 <strong>SubPipe</strong> is a public dataset of a submarine outfall pipeline, property of Oceanscan-MST. This dataset was acquired with a Light Autonomous Underwater Vehicle by Oceanscan-MST, within the scope of Challenge Camp 1 of H2020 [REMARO](https://remaro.eu/) project.
 
