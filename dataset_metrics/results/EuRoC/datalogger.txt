@@ -1,0 +1,6 @@
+
+ rotation motion diversity metric for EuRoC :0.522060863795194
+ traslation motion diversity metric for EuRoC :0.3693926576530018
+ overall motion diversity metric for EuRoC :0.4457267607240979
+ Entropy value for min_entropy_img.png :-0.0
+ Entropy value for max_entropy_img.png :0.44591683697411055

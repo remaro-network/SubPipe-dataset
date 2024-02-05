@@ -1,0 +1,6 @@
+
+ rotation motion diversity metric for SubPipe :0.014518440906429807
+ traslation motion diversity metric for SubPipe :0.08565765083989813
+ overall motion diversity metric for SubPipe :0.05008804587316397
+ Entropy value for min_entropy_img.png :-0.0
+ Entropy value for max_entropy_img.png :0.05915529825387457

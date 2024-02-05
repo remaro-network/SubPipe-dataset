@@ -1,0 +1,6 @@
+
+ rotation motion diversity metric for TartanAir :0.49874875377360306
+ traslation motion diversity metric for TartanAir :0.4835327907529732
+ overall motion diversity metric for TartanAir :0.4911407722632881
+ Entropy value for min_entropy_img.png :-0.0
+ Entropy value for max_entropy_img.png :0.9492341064819193

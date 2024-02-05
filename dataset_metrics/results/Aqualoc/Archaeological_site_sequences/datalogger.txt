@@ -1,0 +1,6 @@
+
+ rotation motion diversity metric for Aqualoc/Archaeological_site_sequences :0.030991990279310187
+ traslation motion diversity metric for Aqualoc/Archaeological_site_sequences :0.2533740351850443
+ overall motion diversity metric for Aqualoc/Archaeological_site_sequences :0.14218301273217726
+ Entropy value for min_entropy_img.png :0.0010934946093086612
+ Entropy value for max_entropy_img.png :0.0520022883527613

@@ -1,0 +1,6 @@
+
+ rotation motion diversity metric for MIMIR :0.11454389753838988
+ traslation motion diversity metric for MIMIR :0.5929697438359381
+ overall motion diversity metric for MIMIR :0.353756820687164
+ Entropy value for min_entropy_img.png :-0.0
+ Entropy value for max_entropy_img.png :0.1528871856288213

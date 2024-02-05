@@ -1,0 +1,6 @@
+
+ rotation motion diversity metric for KITTI :0.026214793942718837
+ traslation motion diversity metric for KITTI :0.0020149264744465847
+ overall motion diversity metric for KITTI :0.01411486020858271
+ Entropy value for min_entropy_img.png :0.043272428251394386
+ Entropy value for max_entropy_img.png :0.5718883116047604
