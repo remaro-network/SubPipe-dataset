@@ -85,7 +85,16 @@ The data loaders for ORB-SLAM and DSO are gathered together in [this repository]
 - [Segformer](https://github.com/FrancescoSaverioZuppichini/SegFormer)
 
 ## 2.3 Object detection on Side-scan sonar images
-\# TODO
+
+Number of Images:
+	Low Frequency: 5000
+	High Frequency: 5030
+	Total: 10030
+
+Number of Annotations:
+	Low Frequency: 3163
+	High Frequency: 3172 
+	Total: 6335
 
 # Acknowledgements
 
