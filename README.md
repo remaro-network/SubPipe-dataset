@@ -1,6 +1,6 @@
 # SubPipe-dataset :diving_mask:
 A Submarine Pipeline Inspection Dataset for Segmentation and Visual-inertial Localization.
-Here you will find all the relevant information regarding the dataset introduced in [our paper:](https://arxiv.org/abs/2401.17907)
+Here, you will find all the relevant information regarding the dataset introduced in [our paper:](https://arxiv.org/abs/2401.17907)
 > Álvarez-Tuñón, O., Marnet, L. R., Antal, L., Aubard, M., Costa, M., & Brodskiy, Y. (2024). SubPipe: A Submarine Pipeline Inspection Dataset for Segmentation and Visual-inertial Localization. arXiv preprint arXiv:2401.17907.
 
 If any of this work has been useful in your research, please consider citing us :smiley:
@@ -27,7 +27,7 @@ If any of this work has been useful in your research, please consider citing us 
  You can download SubPipe from [the following link](https://zenodo.org/records/10053565?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijk3YjQ3MDMyLTVkNjQtNGVjZi05YWM0LThmMWViZDdlZjZhYSIsImRhdGEiOnt9LCJyYW5kb20iOiI1OWM2MWFhMGJiM2ExYThiMGZjNzViZjQ3ZTBiZWRmMyJ9.cGHld8zcCv2Un3LWDJo_S8IExiTfaQqyIZusOQ0VGHywkJXM5YiOieUBgyRCgXp7s6kWHKymrOQWnGVu-A2utg)
 
 ###  1.2 The dataset structure
-The dataset is divided in 5 Chunks. We exemplify SubPipe's structure with Chunk 0 as:
+The dataset is divided into 5 Chunks. We exemplify SubPipe's structure with Chunk 0 as:
 
 ```
 SubPipe
@@ -41,14 +41,46 @@ SubPipe
 │   │   │   ├── <timestamp0>.jpg
 │   │   │   ├── ...
 │   │   │   └── <timestampN>.jpg
-│   │   ├── Cam0_images
+│   │   ├── Cam1_images
 │   │   │   ├── <timestamp0>.jpg
 │   │   │   ├── ...
 │   │   │   └── <timestampN>.jpg
 │   │   ├── Depth.csv
-│   │   ├── AngularVelocity.csv
-│   │   ├── Altitude.csv
-│   │   └── Acceleration.csv
+│   │   ├── EstimatedState.csv
+│   │   ├── ForwardDistance.csv
+│   │   ├── Pressure.csv
+│   │   ├── Rpm.csv
+│   │   ├── Segmentation
+│   │   │   ├── <timestamp0>.png
+│   │   │   ├── <timestamp0>_label.png
+│   │   │   ├── ...
+│   │   │   ├── <timestampN>.png
+│   │   │   └── <timestampN>_label.png
+│   │   ├── SSS_HF_images
+│   │   │   ├── COCO_Annotation
+│   │   │   |   └── coco_format.json 
+│   │   │   ├── Image
+│   │   │   |   ├── <timestamp0>.pbm
+│   │   │   |   ├── ...
+│   │   │   |   └── <timestampN>.pbm
+│   │   │   ├── YOLO_Annotation
+│   │   │   |   ├── <timestamp0>.txt
+│   │   │   |   ├── ...
+│   │   │   |   └── <timestampN>.txt
+│   │   ├── SSS_LF_images
+│   │   │   ├── COCO_Annotation
+│   │   │   |   └── coco_format.json 
+│   │   │   ├── Image
+│   │   │   |   ├── <timestamp0>.pbm
+│   │   │   |   ├── ...
+│   │   │   |   └── <timestampN>.pbm
+│   │   │   └── YOLO_Annotation
+│   │   │       ├── <timestamp0>.txt
+│   │   │       ├── ...
+│   │   │       └── <timestampN>.txt
+│   │   ├── Pressure.csv
+│   │   ├── Temperature.csv
+│   │   └── WaterVelocity.csv
 │   ├──Chunk1
 │   ├──Chunk2
 │   ├──Chunk3
@@ -85,16 +117,23 @@ The data loaders for ORB-SLAM and DSO are gathered together in [this repository]
 - [Segformer](https://github.com/FrancescoSaverioZuppichini/SegFormer)
 
 ## 2.3 Object detection on Side-scan sonar images
+Each sonar image was created after 20 “ping” (after every 20 new lines) which corresponds to approx. ~1 image / second.
 
-Number of Images:
-	Low Frequency: 5000
-	High Frequency: 5030
-	Total: 10030
+Regarding the object detection annotations, we provide both COCO and YOLO formats for each annotation. A single COCO annotation file is provided per each chunk and per each frequency (low frequency vs. high frequency), whereas the YOLO annotations are provided for each SSS image file.
+
+Metadata about the side-scan sonar images contained in this dataset:
+
+Side-scan Sonar Images:
+- \# Low Frequency (LF): 5000
+- LF image size: 2500 x 500
+- \# High Frequency (HF): 5030
+- HF image size: 5000 x 500
+- Total number of images: 10030
 
 Number of Annotations:
-	Low Frequency: 3163
-	High Frequency: 3172 
-	Total: 6335
+- \# Low Frequency: 3163
+- \# High Frequency: 3172 
+- Total number of annotations: 6335
 
 # Acknowledgements
 
