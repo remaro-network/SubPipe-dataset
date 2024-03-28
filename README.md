@@ -24,7 +24,7 @@ If any of this work has been useful in your research, please consider citing us 
 ## 1. The dataset
 
  ### 1.1 Dataset link
- You can download SubPipe from [the following link](https://zenodo.org/records/10053565?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijk3YjQ3MDMyLTVkNjQtNGVjZi05YWM0LThmMWViZDdlZjZhYSIsImRhdGEiOnt9LCJyYW5kb20iOiI1OWM2MWFhMGJiM2ExYThiMGZjNzViZjQ3ZTBiZWRmMyJ9.cGHld8zcCv2Un3LWDJo_S8IExiTfaQqyIZusOQ0VGHywkJXM5YiOieUBgyRCgXp7s6kWHKymrOQWnGVu-A2utg)
+ You can download SubPipe from [the following link](https://zenodo.org/doi/10.5281/zenodo.10053564)
 
 ###  1.2 The dataset structure
 The dataset is divided into 5 Chunks. We exemplify SubPipe's structure with Chunk 0 as:
